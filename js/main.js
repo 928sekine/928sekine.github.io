@@ -1,6 +1,6 @@
 // swiper
 const swiper = new Swiper(".swiper", {
-  slideToLoop: true,
+  loop: true,
   speed: 1000,
   autoplay: {
     // 自動再生
