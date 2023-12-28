@@ -2,6 +2,7 @@
   // swiper
 const swiper = new Swiper(".swiper", {
   loop: true,
+  slidesPerView: "auto",
   speed: 1000,
   autoplay: {
     // 自動再生
