@@ -1,4 +1,5 @@
-// swiper
+(window.onload = function () {
+  // swiper
 const swiper = new Swiper(".swiper", {
   loop: true,
   speed: 1000,
@@ -7,6 +8,8 @@ const swiper = new Swiper(".swiper", {
     delay: 2000, // 2秒後に次のスライド
   },
 });
+ });
+
 
 // 診療科目クリックのモーダルの動き
 
